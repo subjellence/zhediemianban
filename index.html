@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>手风琴折叠面板</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: #ccc;
+        }
+        .box{
+            width: 500px;
+            height: 300px;
+            background-color: #98EAA2;
+            margin: 100px auto;
+        }
+        ul{
+            width: 450px;
+            height: 280px;
+            margin: 0 auto;
+            padding-top: 10px;
+        }
+        ul li{
+            list-style: none;
+            width: 100%;
+            /* height: 55px;*/
+            height: auto; 
+            border: 1px solid #fff;
+            box-sizing: border-box;
+            background-color: #777;
+            color: #fff;
+        }
+        .top{
+            height: 55px;
+            background-color: #FF6347;
+        }
+        ul li h5{
+            float: left;
+            width: 80%;
+            height: 100%;
+            text-align: center;
+            line-height: 55px;
+        }
+        ul li .right{
+            float: right;
+            width: 20px;
+            height: 20px;
+            margin-top: 15px;
+            margin-right: 20px;
+        }
+        ul li .right:hover{
+            cursor: pointer;
+        }
+        ul li .right img{
+            width: 100%;
+            height: 100%;
+        }
+        .text{
+            /* height: auto; */
+            height: 0px;
+            background-color: #000;
+            /* display: none; */
+            overflow: hidden;
+
+        }
+
+
+
+
+
+
+    </style>
+
+</head>
+<body>
+    <div class="box">
+        <ul>
+            <li>
+                <div class="top">
+                    <h5>折叠一</h5>
+                    <div class="right"><img src="img/down.png" alt=""></div>
+                </div>
+                
+                <div class="text">
+                    折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容
+                    折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容
+                    折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容
+                    折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容
+                    折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容
+                </div>
+            </li>
+            <li>
+                <div class="top">
+                    <h5>折叠二</h5>
+                    <div class="right"><img src="img/down.png" alt=""></div>
+                </div>
+                
+                <div class="text">
+                    折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容
+                    折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容
+                    折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容
+                    折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容
+                    折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容
+                </div>
+            </li>
+            <li>
+                <div class="top">
+                    <h5>折叠三</h5>
+                    <div class="right"><img src="img/down.png" alt=""></div>
+                </div>
+                
+                <div class="text">
+                    折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容
+                    折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容
+                    折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容
+                    折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容
+                    折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容
+                </div>
+            </li>
+            <li>
+                <div class="top">
+                    <h5>折叠四</h5>
+                    <div class="right"><img src="img/down.png" alt=""></div>
+                </div>
+                
+                <div class="text">
+                    折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容
+                    折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容
+                    折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容
+                    折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容
+                    折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容
+                </div>
+            </li>
+            <li>
+                <div class="top">
+                    <h5>折叠五</h5>
+                    <div class="right"><img src="img/down.png" alt=""></div>
+                </div>
+                
+                <div class="text">
+                    折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容
+                    折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容
+                    折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容
+                    折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容
+                    折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容折叠一的内容
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script>
+        var num = true;
+        $('.right').click(function(){
+            if(num == true){
+                $(this).parent().siblings('.text').animate({height:"255px"});
+                var newSrc = 'img/top.png';
+                $(this).children().attr('src',newSrc);
+                num = false;
+            }else {
+                var newSrc = 'img/down.png';
+                $(this).children().attr('src',newSrc);
+                $(this).parent().siblings('.text').animate({height:'0px'});
+                num = true;
+            }
+        });
+    </script>
+</body>
+</html>
